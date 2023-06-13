@@ -1,5 +1,5 @@
 # Jeu : Nombre Mystère
 
-## deviner un nombre entre 1 et 10 
+## But : Deviner un nombre entre 1 et 10 
 
-### utilisation de la boucle do while + une condition ternaire
+### Utilisation de la boucle do while + des conditions et ternaire
