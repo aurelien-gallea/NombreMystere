@@ -1,6 +1,5 @@
 ﻿Console.Write("Entrez votre prénom : ");
 string? name = Console.ReadLine();
-// int? playerNumber = 0;
 int count = 0;
 
 void play() {
@@ -8,6 +7,7 @@ void play() {
     Random randNumber = new Random();
     int mysteryNumber = randNumber.Next(1,11); //Génère un entier compris entre 1 et 10
     int? playerNumber = 0;
+
     do
     {
         Console.Write("Devinez le nombre entre 1 et 10 : ");
@@ -21,6 +21,7 @@ void play() {
         } else {
             Console.WriteLine($"Bravo \"{name}\" vous avez gagné en {count} coup(s) !");
         }
+        
     } while (playerNumber != mysteryNumber);
 
     Console.Write("Voulez-vous rejouer ? o / n : ");
